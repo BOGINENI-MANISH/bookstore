@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #232f3e;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    max-height: 50px;
+}
+
+.account-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.account-links a:hover {
+    text-decoration: underline;
+}
+
+/* Page Title */
+.page-title {
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0;
+    color: #232f3e;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Service Sections */
+.service-section {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-section h2 {
+    color: #232f3e;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.faq-list, .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.faq-list li, .contact-list li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.faq-list a, .contact-list a {
+    text-decoration: none;
+    color: #ff9900;
+}
+
+.faq-list a:hover, .contact-list a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #232f3e;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ff9900;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
